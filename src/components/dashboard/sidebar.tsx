@@ -33,7 +33,7 @@ const mockItems: TPromptHistory[] = [
 
 export default function Sidebar() {
   return (
-    <nav className="h-screen w-80 p-4">
+    <nav className="h-screen w-80 p-4 border-r">
       <div className="flex items-center justify-between">
         <h1 className="text-xl font-semibold">AI Writer</h1>
         <button>
